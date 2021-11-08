@@ -1,0 +1,37 @@
+@font-face {
+  font-family: WindowsRegular;
+  src: url("/fonts/Windows Regular.ttf");
+}
+
+.navbar {
+  flex: 0;
+}
+
+.navbar-button {
+  font-family: WindowsRegular;
+
+  background-color: #c0c0c0;
+  flex: 0;
+}
+
+.info-box {
+  background-color: #008080;
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  bottom: 0%;
+  position: fixed;
+}
+
+body {
+  display: flex;
+  background-color: #808080;
+}
+
+img {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
