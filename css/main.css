@@ -49,6 +49,7 @@ img {
 .info-box {
     min-height: 100%;
     width: 100%;
+    border: none;
 }
 
 .big-text {
