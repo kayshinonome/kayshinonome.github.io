@@ -1,48 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Kay Shinonome's Blog</title>
     <meta charset="UTF-8" />
-  </head>
+</head>
 
-  <body>
+<body>
     <nav class="navbar">
-      <button class="navbar-button">
-        <img src="img/scanregw.png" alt="Icon" />
-        <b>About</b>
-      </button>
+        <button class="navbar-button" id="about">
+      <img src="/img/scanregw.png" alt="Icon" />
+      <b>About</b>
+    </button>
 
-      <button class="navbar-button">
-        <img src="img/regedit_binary-0.png" alt="Icon" />
-        <b>Kins</b>
-      </button>
+        <button class="navbar-button" id="kins">
+      <img src="/img/regedit_binary-0.png" alt="Icon" />
+      <b>Kins</b>
+    </button>
 
-      <button class="navbar-button">
-        <img src="img/expansion_board-1.png" alt="Icon" />
-        <b>Devices</b>
-      </button>
+        <button class="navbar-button" id="devices">
+      <img src="/img/expansion_board-1.png" alt="Icon" />
+      <b>Devices</b>
+    </button>
 
-      <button class="navbar-button">
-        <img src="img/network_internet_pcs_installer-4.png" alt="Icon" />
-        <b>Socials</b>
-      </button>
+        <button class="navbar-button" id="socials">
+      <img src="/img/network_internet_pcs_installer-4.png" alt="Icon" />
+      <b>Socials</b>
+    </button>
     </nav>
 
-    <div id="info-box" class="modal">
-      <div class="modal-titlebar"></div>
-        <span class="close">&times;</span>
-        <p>Some text in the Modal..</p>
+    <iframe frameborder="0" src="/html/about.html" class="info-box"> </iframe>
+
+    <div class="badge-footer">
+        <a href="/https://html5.validator.nu/?doc=https%3A%2F%2Fkayshinonome.github.io">
+            <img src="/img/html5-validator-badge.svg" alt="HTML5 Valid" />
+        </a>
     </div>
 
-    <div class="footer">
-      <a
-        href="https://html5.validator.nu/?doc=https%3A%2F%2Fkayshinonome.github.io"
-      >
-        <img src="img/html5-validator-badge.svg" alt="HTML5 Valid" />
-      </a>
-    </div>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="/js/index.js"></script>
+</body>
 
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <script src="js/index.js"></script>
-  </body>
 </html>

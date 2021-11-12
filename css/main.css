@@ -1,0 +1,57 @@
+@font-face {
+    font-family: WindowsRegular;
+    src: url("/fonts/Windows Regular.ttf");
+}
+
+
+/* Add Animation */
+
+@keyframes animate-top {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.navbar {
+    flex: 0;
+}
+
+.navbar-button {
+    font-family: inherit;
+    background-color: #c0c0c0;
+    flex: 0;
+}
+
+.badge-footer {
+    bottom: 0%;
+    position: fixed;
+}
+
+body {
+    font-family: WindowsRegular;
+    display: flex;
+    flex-direction: row;
+    background-color: #808080;
+}
+
+img {
+    pointer-events: none;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+.info-box {
+    min-height: 100%;
+    width: 100%;
+}
+
+.big-text {
+    align-self: center;
+    font-size: x-large;
+}
