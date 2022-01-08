@@ -34,9 +34,11 @@
 
 body {
     font-family: WindowsRegular;
+    font-size: x-large;
     display: flex;
     flex-direction: row;
     background-color: #808080;
+    min-height: 90%;
 }
 
 img {
@@ -47,12 +49,16 @@ img {
 }
 
 .info-box {
-    min-height: 100%;
+    min-height: 90vh;
     width: 100%;
     border: none;
 }
 
 .big-text {
     align-self: center;
-    font-size: x-large;
+    font-size: xx-large;
+}
+
+.myname {
+    text-align: center;
 }
